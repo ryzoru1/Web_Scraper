@@ -119,7 +119,7 @@ venv\Scripts\activate
 ### 3. Install the dependencies
 
 ```bash
-pip install requests beautifulsoup4
+pip install -r requirements.txt
 ```
 
 That's it — the scraper is a single script with no other setup required.
@@ -235,10 +235,11 @@ When you choose to save:
 
 ```
 Web_Scraper/
-├── scraper.py      # The complete scraper (single-file program)
-├── README.md       # This documentation
-├── .gitignore      # Ignores caches, virtual envs, output files, etc.
-└── LICENSE         # GNU General Public License v3.0
+├── scraper.py         # The complete scraper (single-file program)
+├── requirements.txt   # Pinned dependencies (requests, beautifulsoup4)
+├── README.md          # This documentation
+├── .gitignore         # Ignores caches, virtual envs, output files, etc.
+└── LICENSE            # GNU General Public License v3.0
 ```
 
 ---
